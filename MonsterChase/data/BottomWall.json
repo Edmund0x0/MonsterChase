@@ -1,0 +1,40 @@
+{
+	"controller": {
+		"type": "wall",
+		"initializer": {
+			"name": "Joe"
+		}
+	},
+
+	"components": {
+		"renderable": {
+			"sprite_texture_source": "data\\AAgura_wall_bot_v01.dds"
+		},
+
+		"moveable": {
+			"playerone": false,
+			"playertwo": false,
+			"ball": false,
+			"upperwall": false,
+			"bottomwall": true,
+			"kd": 1.0,
+			"mass": 30.0,
+			"force": 2.0,
+			"velocityX": 0.0,
+			"velocityY": 0.0
+
+		},
+
+		"position": {
+			"xPos": 0,
+			"yPos": -325,
+			"normalX": 0,
+			"normalY": 1
+		},
+
+		"size": {
+			"height": 45,
+			"width": 800
+		}
+	}
+}

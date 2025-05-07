@@ -1,0 +1,40 @@
+{
+	"controller": {
+		"type": "player",
+		"initializer": {
+			"name": "Joe"
+		}
+	},
+
+	"components": {
+		"renderable": {
+			"sprite_texture_source": "data\\AAgura_1_v01.dds"
+		},
+
+		"moveable": {
+			"playerone": true,
+			"playertwo": false,
+			"ball": false,
+			"upperwall": false,
+			"bottomwall": false,
+			"kd": 1.0,
+			"mass": 25.0,
+			"force": 2.0,
+			"velocityX": 0.0,
+			"velocityY": 0.0
+
+		},
+
+		"position": {
+			"xPos": -300,
+			"yPos": 0,
+			"normalX": 1,
+			"normalY": 0
+		},
+
+		"size": {
+			"height": 160,
+			"width": 80
+		}
+	}
+}
